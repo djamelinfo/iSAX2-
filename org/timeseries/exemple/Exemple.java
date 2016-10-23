@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.timeseries.exemple;
+package timeseries.exemple;
 
 import java.io.File;
 import java.io.IOException;
-import org.timeseries.isax2.iSAXIndex;
+import timeseries.isax2.iSAXIndex;
 
 /**
  *
@@ -53,7 +53,7 @@ public class Exemple {
         double end = System.currentTimeMillis();
         System.out.println(index);
         System.out.println("time to builde index = " + (end - start) + "ms");
-        //System.out.println("++++++++++++++++++++++++++++++++++++++++++++index+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+
 
         index.saveIndexInDisk();
     }

@@ -1,4 +1,4 @@
-package org.timeseries.isax2;
+package timeseries.isax2;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
